@@ -17,6 +17,8 @@ class TableViewController: UITableViewController {
     var indexRow : Int! = nil
     
     var myData:NSArray = []
+    var lasanga = "i love it"
+    
 
     
     override func viewDidLoad() {
