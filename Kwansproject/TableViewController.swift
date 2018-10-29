@@ -17,7 +17,9 @@ class TableViewController: UITableViewController {
     var indexRow : Int! = nil
     
     var myData:NSArray = []
-    var lasanga = "i love it"
+    var lasagna = "i love it"
+    var test = "what"
+    
     
 
     
