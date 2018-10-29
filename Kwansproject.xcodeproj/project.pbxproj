@@ -12,9 +12,17 @@
 		0618680F216B1A9400A12822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0618680D216B1A9400A12822 /* Main.storyboard */; };
 		06186812216B1A9400A12822 /* Kwansproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06186810216B1A9400A12822 /* Kwansproject.xcdatamodeld */; };
 		06186814216B1A9B00A12822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06186813216B1A9B00A12822 /* Assets.xcassets */; };
-		06186817216B1A9B00A12822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06186815216B1A9B00A12822 /* LaunchScreen.storyboard */; };
 		06186822216B1A9C00A12822 /* KwansprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06186821216B1A9C00A12822 /* KwansprojectTests.swift */; };
 		0618682D216B1A9C00A12822 /* KwansprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618682C216B1A9C00A12822 /* KwansprojectUITests.swift */; };
+		06186843216B62A500A12822 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06186842216B62A500A12822 /* File.swift */; };
+		06186844216B672C00A12822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618680B216B1A9400A12822 /* ViewController.swift */; };
+		0688654C216C4CDD00382922 /* iButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688654B216C4CDD00382922 /* iButton.swift */; };
+		06886557216C87C200382922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06886556216C87C200382922 /* LaunchScreen.storyboard */; };
+		0688655A216C8BB400382922 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06886558216C8BB400382922 /* TableViewController.swift */; };
+		0688655D216C8E0D00382922 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688655C216C8E0D00382922 /* TableViewCell.swift */; };
+		2F208A5A0CE140F8AFB0616E /* Pods_KwansprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE86B4EBE6EB86A99ECA9EB /* Pods_KwansprojectUITests.framework */; };
+		494D4C79E702A715AAE4FF26 /* Pods_Kwansproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32990856F89A0631FC4F79DF /* Pods_Kwansproject.framework */; };
+		A6F6595C0B4521288BDB9EF1 /* Pods_KwansprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD9E0DFFFB20EA98D2206 /* Pods_KwansprojectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F59B53B8DF94BED043AAD0 /* Pods-KwansprojectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwansprojectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KwansprojectUITests/Pods-KwansprojectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		06186806216B1A9400A12822 /* Kwansproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwansproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06186809216B1A9400A12822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0618680B216B1A9400A12822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0618680E216B1A9400A12822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06186811216B1A9400A12822 /* Kwansproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kwansproject.xcdatamodel; sourceTree = "<group>"; };
 		06186813216B1A9B00A12822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06186816216B1A9B00A12822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06186818216B1A9B00A12822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0618681D216B1A9C00A12822 /* KwansprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwansprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06186821216B1A9C00A12822 /* KwansprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwansprojectTests.swift; sourceTree = "<group>"; };
@@ -49,6 +57,19 @@
 		06186828216B1A9C00A12822 /* KwansprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwansprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0618682C216B1A9C00A12822 /* KwansprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwansprojectUITests.swift; sourceTree = "<group>"; };
 		0618682E216B1A9C00A12822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06186842216B62A500A12822 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0688654B216C4CDD00382922 /* iButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iButton.swift; sourceTree = "<group>"; };
+		06886556216C87C200382922 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06886558216C8BB400382922 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0688655C216C8E0D00382922 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0AABD9E0DFFFB20EA98D2206 /* Pods_KwansprojectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwansprojectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF03197BA93999AF3C318CF /* Pods-KwansprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwansprojectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KwansprojectTests/Pods-KwansprojectTests.release.xcconfig"; sourceTree = "<group>"; };
+		32990856F89A0631FC4F79DF /* Pods_Kwansproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kwansproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C1501E666A9E1EF59F1847 /* Pods-KwansprojectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwansprojectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KwansprojectUITests/Pods-KwansprojectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DE86B4EBE6EB86A99ECA9EB /* Pods_KwansprojectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwansprojectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76606E3230E3217077A7B7A /* Pods-Kwansproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kwansproject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kwansproject/Pods-Kwansproject.debug.xcconfig"; sourceTree = "<group>"; };
+		D071A85768D647AC9E8D631A /* Pods-Kwansproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kwansproject.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kwansproject/Pods-Kwansproject.release.xcconfig"; sourceTree = "<group>"; };
+		D91D16988F7206C8E6E24E1F /* Pods-KwansprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwansprojectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KwansprojectTests/Pods-KwansprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494D4C79E702A715AAE4FF26 /* Pods_Kwansproject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F6595C0B4521288BDB9EF1 /* Pods_KwansprojectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F208A5A0CE140F8AFB0616E /* Pods_KwansprojectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +107,8 @@
 				06186820216B1A9C00A12822 /* KwansprojectTests */,
 				0618682B216B1A9C00A12822 /* KwansprojectUITests */,
 				06186807216B1A9400A12822 /* Products */,
+				C0B978DE1B1B6677ED6911FE /* Pods */,
+				0A4B9C30DC30192CE5885DA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +125,17 @@
 		06186808216B1A9400A12822 /* Kwansproject */ = {
 			isa = PBXGroup;
 			children = (
+				06186842216B62A500A12822 /* File.swift */,
+				06886556216C87C200382922 /* LaunchScreen.storyboard */,
 				06186809216B1A9400A12822 /* AppDelegate.swift */,
 				0618680B216B1A9400A12822 /* ViewController.swift */,
 				0618680D216B1A9400A12822 /* Main.storyboard */,
+				06886558216C8BB400382922 /* TableViewController.swift */,
+				0688655C216C8E0D00382922 /* TableViewCell.swift */,
 				06186813216B1A9B00A12822 /* Assets.xcassets */,
-				06186815216B1A9B00A12822 /* LaunchScreen.storyboard */,
 				06186818216B1A9B00A12822 /* Info.plist */,
 				06186810216B1A9400A12822 /* Kwansproject.xcdatamodeld */,
+				0688654D216C4CE600382922 /* view */,
 			);
 			path = Kwansproject;
 			sourceTree = "<group>";
@@ -128,6 +158,37 @@
 			path = KwansprojectUITests;
 			sourceTree = "<group>";
 		};
+		0688654D216C4CE600382922 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0688654B216C4CDD00382922 /* iButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0A4B9C30DC30192CE5885DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32990856F89A0631FC4F79DF /* Pods_Kwansproject.framework */,
+				0AABD9E0DFFFB20EA98D2206 /* Pods_KwansprojectTests.framework */,
+				8DE86B4EBE6EB86A99ECA9EB /* Pods_KwansprojectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0B978DE1B1B6677ED6911FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76606E3230E3217077A7B7A /* Pods-Kwansproject.debug.xcconfig */,
+				D071A85768D647AC9E8D631A /* Pods-Kwansproject.release.xcconfig */,
+				D91D16988F7206C8E6E24E1F /* Pods-KwansprojectTests.debug.xcconfig */,
+				2EF03197BA93999AF3C318CF /* Pods-KwansprojectTests.release.xcconfig */,
+				00F59B53B8DF94BED043AAD0 /* Pods-KwansprojectUITests.debug.xcconfig */,
+				43C1501E666A9E1EF59F1847 /* Pods-KwansprojectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06186831216B1A9C00A12822 /* Build configuration list for PBXNativeTarget "Kwansproject" */;
 			buildPhases = (
+				5BCF8E95F56382A166916AFD /* [CP] Check Pods Manifest.lock */,
 				06186802216B1A9400A12822 /* Sources */,
 				06186803216B1A9400A12822 /* Frameworks */,
 				06186804216B1A9400A12822 /* Resources */,
+				9CFC6E306EB0BCD2CA37FFC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06186834216B1A9C00A12822 /* Build configuration list for PBXNativeTarget "KwansprojectTests" */;
 			buildPhases = (
+				61C234F72C0FB2B5434BD974 /* [CP] Check Pods Manifest.lock */,
 				06186819216B1A9C00A12822 /* Sources */,
 				0618681A216B1A9C00A12822 /* Frameworks */,
 				0618681B216B1A9C00A12822 /* Resources */,
@@ -170,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06186837216B1A9C00A12822 /* Build configuration list for PBXNativeTarget "KwansprojectUITests" */;
 			buildPhases = (
+				7E114AEE5CF1F17C4DD9B5A6 /* [CP] Check Pods Manifest.lock */,
 				06186824216B1A9C00A12822 /* Sources */,
 				06186825216B1A9C00A12822 /* Frameworks */,
 				06186826216B1A9C00A12822 /* Resources */,
@@ -232,7 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06186817216B1A9B00A12822 /* LaunchScreen.storyboard in Resources */,
+				06886557216C87C200382922 /* LaunchScreen.storyboard in Resources */,
 				06186814216B1A9B00A12822 /* Assets.xcassets in Resources */,
 				0618680F216B1A9400A12822 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +319,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCF8E95F56382A166916AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kwansproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C234F72C0FB2B5434BD974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwansprojectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E114AEE5CF1F17C4DD9B5A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwansprojectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFC6E306EB0BCD2CA37FFC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kwansproject/Pods-Kwansproject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kwansproject/Pods-Kwansproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06186802216B1A9400A12822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06186812216B1A9400A12822 /* Kwansproject.xcdatamodeld in Sources */,
+				0688655A216C8BB400382922 /* TableViewController.swift in Sources */,
+				06186843216B62A500A12822 /* File.swift in Sources */,
 				0618680C216B1A9400A12822 /* ViewController.swift in Sources */,
+				0688654C216C4CDD00382922 /* iButton.swift in Sources */,
+				0688655D216C8E0D00382922 /* TableViewCell.swift in Sources */,
 				0618680A216B1A9400A12822 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06186844216B672C00A12822 /* ViewController.swift in Sources */,
 				0618682D216B1A9C00A12822 /* KwansprojectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +474,6 @@
 				0618680E216B1A9400A12822 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		06186815216B1A9B00A12822 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06186816216B1A9B00A12822 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,10 +597,12 @@
 		};
 		06186832216B1A9C00A12822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76606E3230E3217077A7B7A /* Pods-Kwansproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Kwansproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,16 +610,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.Kwansproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		06186833216B1A9C00A12822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D071A85768D647AC9E8D631A /* Pods-Kwansproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Kwansproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,12 +629,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.me.Kwansproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		06186835216B1A9C00A12822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91D16988F7206C8E6E24E1F /* Pods-KwansprojectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +656,7 @@
 		};
 		06186836216B1A9C00A12822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF03197BA93999AF3C318CF /* Pods-KwansprojectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +677,7 @@
 		};
 		06186838216B1A9C00A12822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F59B53B8DF94BED043AAD0 /* Pods-KwansprojectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +697,7 @@
 		};
 		06186839216B1A9C00A12822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C1501E666A9E1EF59F1847 /* Pods-KwansprojectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
